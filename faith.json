@@ -1,0 +1,3056 @@
+{
+  "log": [
+    {
+      "name": "spatial_len2_01",
+      "domain": "spatial",
+      "premises": [
+        "A sits somewhere to the left of B."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len2_02",
+      "domain": "spatial",
+      "premises": [
+        "A sits somewhere to the left of C."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len2_03",
+      "domain": "spatial",
+      "premises": [
+        "A is to the left of D."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "D"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "D"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "D"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len2_04",
+      "domain": "spatial",
+      "premises": [
+        "E is to the right of A."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "E",
+          "A"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "E"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "E"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len2_05",
+      "domain": "spatial",
+      "premises": [
+        "F is positioned to the right of A."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "F",
+          "A"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "F"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "F"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len2_06",
+      "domain": "spatial",
+      "premises": [
+        "A sits somewhere to the left of G."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "G"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len3_07",
+      "domain": "spatial",
+      "premises": [
+        "A sits somewhere to the left of B.",
+        "C is to the right of B."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "B"
+        ],
+        [
+          "left_of",
+          "C",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len3_08",
+      "domain": "spatial",
+      "premises": [
+        "A sits somewhere to the left of B.",
+        "D is to the right of B."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "B"
+        ],
+        [
+          "left_of",
+          "D",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "D"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "D"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len3_09",
+      "domain": "spatial",
+      "premises": [
+        "B is positioned to the right of A.",
+        "B is left of E."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "B",
+          "A"
+        ],
+        [
+          "left_of",
+          "B",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "E"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "E"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len3_10",
+      "domain": "spatial",
+      "premises": [
+        "B is positioned to the right of A.",
+        "B is left of F."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "B",
+          "A"
+        ],
+        [
+          "left_of",
+          "B",
+          "F"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "F"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "F"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len3_11",
+      "domain": "spatial",
+      "premises": [
+        "B is to the right of A.",
+        "B is left of G."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "B",
+          "A"
+        ],
+        [
+          "left_of",
+          "B",
+          "G"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "G"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "G"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len3_12",
+      "domain": "spatial",
+      "premises": [
+        "A is to the left of C.",
+        "B is positioned to the right of C."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "C"
+        ],
+        [
+          "left_of",
+          "B",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "B"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "B"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len4_13",
+      "domain": "spatial",
+      "premises": [
+        "B is to the right of A.",
+        "C is positioned to the right of B.",
+        "D is positioned to the right of C."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "B",
+          "A"
+        ],
+        [
+          "left_of",
+          "C",
+          "B"
+        ],
+        [
+          "left_of",
+          "D",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "D"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "D"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len4_14",
+      "domain": "spatial",
+      "premises": [
+        "A is left of B.",
+        "C is to the right of B.",
+        "C is to the left of E."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "B"
+        ],
+        [
+          "left_of",
+          "C",
+          "B"
+        ],
+        [
+          "left_of",
+          "C",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "E"
+          ]
+        ],
+        "P": 0.6666666666666666,
+        "R": 0.6666666666666666,
+        "F1": 0.6666666666666666,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "E"
+          ]
+        ],
+        "P": 0.6666666666666666,
+        "R": 0.6666666666666666,
+        "F1": 0.6666666666666666,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len4_15",
+      "domain": "spatial",
+      "premises": [
+        "A is to the left of B.",
+        "C is to the right of B.",
+        "C sits somewhere to the left of F."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "B"
+        ],
+        [
+          "left_of",
+          "C",
+          "B"
+        ],
+        [
+          "left_of",
+          "C",
+          "F"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "F"
+          ]
+        ],
+        "P": 0.6666666666666666,
+        "R": 0.6666666666666666,
+        "F1": 0.6666666666666666,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "F"
+          ]
+        ],
+        "P": 0.6666666666666666,
+        "R": 0.6666666666666666,
+        "F1": 0.6666666666666666,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len4_16",
+      "domain": "spatial",
+      "premises": [
+        "B is positioned to the right of A.",
+        "B is to the left of C.",
+        "G is to the right of C."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "B",
+          "A"
+        ],
+        [
+          "left_of",
+          "B",
+          "C"
+        ],
+        [
+          "left_of",
+          "G",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "G"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "C"
+          ],
+          [
+            "left_of",
+            "C",
+            "G"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len4_17",
+      "domain": "spatial",
+      "premises": [
+        "A sits somewhere to the left of B.",
+        "D is to the right of B.",
+        "C is positioned to the right of D."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "B"
+        ],
+        [
+          "left_of",
+          "C",
+          "D"
+        ],
+        [
+          "left_of",
+          "D",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "D"
+          ],
+          [
+            "left_of",
+            "D",
+            "C"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "D"
+          ],
+          [
+            "left_of",
+            "D",
+            "C"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "spatial_len4_18",
+      "domain": "spatial",
+      "premises": [
+        "A is left of B.",
+        "D is positioned to the right of B.",
+        "D sits somewhere to the left of E."
+      ],
+      "gold": [
+        [
+          "left_of",
+          "A",
+          "B"
+        ],
+        [
+          "left_of",
+          "D",
+          "B"
+        ],
+        [
+          "left_of",
+          "D",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "D"
+          ],
+          [
+            "left_of",
+            "D",
+            "E"
+          ]
+        ],
+        "P": 0.6666666666666666,
+        "R": 0.6666666666666666,
+        "F1": 0.6666666666666666,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "left_of",
+            "A",
+            "B"
+          ],
+          [
+            "left_of",
+            "B",
+            "D"
+          ],
+          [
+            "left_of",
+            "D",
+            "E"
+          ]
+        ],
+        "P": 0.6666666666666666,
+        "R": 0.6666666666666666,
+        "F1": 0.6666666666666666,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len2_01",
+      "domain": "temporal",
+      "premises": [
+        "A takes place earlier than B."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len2_02",
+      "domain": "temporal",
+      "premises": [
+        "C comes after A."
+      ],
+      "gold": [
+        [
+          "before",
+          "C",
+          "A"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "C"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "C"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len2_03",
+      "domain": "temporal",
+      "premises": [
+        "D happens after A."
+      ],
+      "gold": [
+        [
+          "before",
+          "D",
+          "A"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "D"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "D"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len2_04",
+      "domain": "temporal",
+      "premises": [
+        "A happens before E."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len2_05",
+      "domain": "temporal",
+      "premises": [
+        "F comes after A."
+      ],
+      "gold": [
+        [
+          "before",
+          "F",
+          "A"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "F"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "F"
+          ]
+        ],
+        "P": 0.0,
+        "R": 0.0,
+        "F1": 0.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len2_06",
+      "domain": "temporal",
+      "premises": [
+        "A happens before G."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "G"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len3_07",
+      "domain": "temporal",
+      "premises": [
+        "A happens before B.",
+        "B takes place earlier than C."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ],
+        [
+          "before",
+          "B",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len3_08",
+      "domain": "temporal",
+      "premises": [
+        "A happens before B.",
+        "D comes after B."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ],
+        [
+          "before",
+          "D",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "D"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "D"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len3_09",
+      "domain": "temporal",
+      "premises": [
+        "A takes place earlier than B.",
+        "E happens after B."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ],
+        [
+          "before",
+          "E",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "E"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "E"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len3_10",
+      "domain": "temporal",
+      "premises": [
+        "A occurs before B.",
+        "F happens after B."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ],
+        [
+          "before",
+          "F",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "F"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "F"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len3_11",
+      "domain": "temporal",
+      "premises": [
+        "A happens before B.",
+        "B occurs before G."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ],
+        [
+          "before",
+          "B",
+          "G"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len3_12",
+      "domain": "temporal",
+      "premises": [
+        "C comes after A.",
+        "C occurs before B."
+      ],
+      "gold": [
+        [
+          "before",
+          "C",
+          "A"
+        ],
+        [
+          "before",
+          "C",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "B"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "B"
+          ]
+        ],
+        "P": 0.5,
+        "R": 0.5,
+        "F1": 0.5,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len4_13",
+      "domain": "temporal",
+      "premises": [
+        "A occurs before B.",
+        "B occurs before C.",
+        "D comes after C."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ],
+        [
+          "before",
+          "B",
+          "C"
+        ],
+        [
+          "before",
+          "D",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "D"
+          ]
+        ],
+        "P": 0.6666666666666666,
+        "R": 0.6666666666666666,
+        "F1": 0.6666666666666666,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "D"
+          ]
+        ],
+        "P": 0.6666666666666666,
+        "R": 0.6666666666666666,
+        "F1": 0.6666666666666666,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len4_14",
+      "domain": "temporal",
+      "premises": [
+        "A takes place earlier than B.",
+        "B happens before C.",
+        "C happens before E."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ],
+        [
+          "before",
+          "B",
+          "C"
+        ],
+        [
+          "before",
+          "C",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len4_15",
+      "domain": "temporal",
+      "premises": [
+        "B happens after A.",
+        "C comes after B.",
+        "C takes place earlier than F."
+      ],
+      "gold": [
+        [
+          "before",
+          "B",
+          "A"
+        ],
+        [
+          "before",
+          "C",
+          "B"
+        ],
+        [
+          "before",
+          "C",
+          "F"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "F"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "F"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len4_16",
+      "domain": "temporal",
+      "premises": [
+        "A happens before B.",
+        "C happens after B.",
+        "G comes after C."
+      ],
+      "gold": [
+        [
+          "before",
+          "A",
+          "B"
+        ],
+        [
+          "before",
+          "C",
+          "B"
+        ],
+        [
+          "before",
+          "G",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "G"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "C"
+          ],
+          [
+            "before",
+            "C",
+            "G"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len4_17",
+      "domain": "temporal",
+      "premises": [
+        "B happens after A.",
+        "B happens before D.",
+        "C comes after D."
+      ],
+      "gold": [
+        [
+          "before",
+          "B",
+          "A"
+        ],
+        [
+          "before",
+          "B",
+          "D"
+        ],
+        [
+          "before",
+          "C",
+          "D"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "D"
+          ],
+          [
+            "before",
+            "D",
+            "C"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "D"
+          ],
+          [
+            "before",
+            "D",
+            "C"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "temporal_len4_18",
+      "domain": "temporal",
+      "premises": [
+        "B happens after A.",
+        "D comes after B.",
+        "D occurs before E."
+      ],
+      "gold": [
+        [
+          "before",
+          "B",
+          "A"
+        ],
+        [
+          "before",
+          "D",
+          "B"
+        ],
+        [
+          "before",
+          "D",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "D"
+          ],
+          [
+            "before",
+            "D",
+            "E"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "before",
+            "A",
+            "B"
+          ],
+          [
+            "before",
+            "B",
+            "D"
+          ],
+          [
+            "before",
+            "D",
+            "E"
+          ]
+        ],
+        "P": 0.3333333333333333,
+        "R": 0.3333333333333333,
+        "F1": 0.3333333333333333,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len2_01",
+      "domain": "causal",
+      "premises": [
+        "A makes B possible."
+      ],
+      "gold": [
+        [
+          "enables",
+          "A",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "B"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "B"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len2_02",
+      "domain": "causal",
+      "premises": [
+        "A makes C possible."
+      ],
+      "gold": [
+        [
+          "enables",
+          "A",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len2_03",
+      "domain": "causal",
+      "premises": [
+        "A makes D possible."
+      ],
+      "gold": [
+        [
+          "enables",
+          "A",
+          "D"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "D"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "D"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len2_04",
+      "domain": "causal",
+      "premises": [
+        "A leads to E."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len2_05",
+      "domain": "causal",
+      "premises": [
+        "A enables F."
+      ],
+      "gold": [
+        [
+          "enables",
+          "A",
+          "F"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "F"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "F"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len2_06",
+      "domain": "causal",
+      "premises": [
+        "A causes G."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "G"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len3_07",
+      "domain": "causal",
+      "premises": [
+        "A makes B possible.",
+        "B enables C."
+      ],
+      "gold": [
+        [
+          "enables",
+          "A",
+          "B"
+        ],
+        [
+          "enables",
+          "B",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "B",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "enables",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "B",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len3_08",
+      "domain": "causal",
+      "premises": [
+        "A leads to B.",
+        "B makes D possible."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "B"
+        ],
+        [
+          "enables",
+          "B",
+          "D"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "B",
+            "D"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "B",
+            "D"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len3_09",
+      "domain": "causal",
+      "premises": [
+        "A brings about B.",
+        "B leads to E."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "B"
+        ],
+        [
+          "causes",
+          "B",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len3_10",
+      "domain": "causal",
+      "premises": [
+        "A brings about B.",
+        "B brings about F."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "B"
+        ],
+        [
+          "causes",
+          "B",
+          "F"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "F"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "F"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len3_11",
+      "domain": "causal",
+      "premises": [
+        "A brings about B.",
+        "B causes G."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "B"
+        ],
+        [
+          "causes",
+          "B",
+          "G"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len3_12",
+      "domain": "causal",
+      "premises": [
+        "A makes C possible.",
+        "C leads to B."
+      ],
+      "gold": [
+        [
+          "causes",
+          "C",
+          "B"
+        ],
+        [
+          "enables",
+          "A",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "C",
+            "B"
+          ],
+          [
+            "enables",
+            "A",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "C",
+            "B"
+          ],
+          [
+            "enables",
+            "A",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len4_13",
+      "domain": "causal",
+      "premises": [
+        "A enables B.",
+        "B causes C.",
+        "C causes D."
+      ],
+      "gold": [
+        [
+          "causes",
+          "B",
+          "C"
+        ],
+        [
+          "causes",
+          "C",
+          "D"
+        ],
+        [
+          "enables",
+          "A",
+          "B"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "B",
+            "C"
+          ],
+          [
+            "causes",
+            "C",
+            "D"
+          ],
+          [
+            "enables",
+            "A",
+            "B"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "B",
+            "C"
+          ],
+          [
+            "causes",
+            "C",
+            "D"
+          ],
+          [
+            "enables",
+            "A",
+            "B"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len4_14",
+      "domain": "causal",
+      "premises": [
+        "A brings about B.",
+        "B brings about C.",
+        "C causes E."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "B"
+        ],
+        [
+          "causes",
+          "B",
+          "C"
+        ],
+        [
+          "causes",
+          "C",
+          "E"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "C"
+          ],
+          [
+            "causes",
+            "C",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "C"
+          ],
+          [
+            "causes",
+            "C",
+            "E"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len4_15",
+      "domain": "causal",
+      "premises": [
+        "A causes B.",
+        "B makes C possible.",
+        "C enables F."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "B"
+        ],
+        [
+          "enables",
+          "B",
+          "C"
+        ],
+        [
+          "enables",
+          "C",
+          "F"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "B",
+            "C"
+          ],
+          [
+            "enables",
+            "C",
+            "F"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "B",
+            "C"
+          ],
+          [
+            "enables",
+            "C",
+            "F"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len4_16",
+      "domain": "causal",
+      "premises": [
+        "A makes B possible.",
+        "B leads to C.",
+        "C makes G possible."
+      ],
+      "gold": [
+        [
+          "causes",
+          "B",
+          "C"
+        ],
+        [
+          "enables",
+          "A",
+          "B"
+        ],
+        [
+          "enables",
+          "C",
+          "G"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "B",
+            "C"
+          ],
+          [
+            "enables",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "C",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "B",
+            "C"
+          ],
+          [
+            "enables",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "C",
+            "G"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len4_17",
+      "domain": "causal",
+      "premises": [
+        "A brings about B.",
+        "B brings about D.",
+        "D makes C possible."
+      ],
+      "gold": [
+        [
+          "causes",
+          "A",
+          "B"
+        ],
+        [
+          "causes",
+          "B",
+          "D"
+        ],
+        [
+          "enables",
+          "D",
+          "C"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "D"
+          ],
+          [
+            "enables",
+            "D",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "A",
+            "B"
+          ],
+          [
+            "causes",
+            "B",
+            "D"
+          ],
+          [
+            "enables",
+            "D",
+            "C"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    },
+    {
+      "name": "causal_len4_18",
+      "domain": "causal",
+      "premises": [
+        "A enables B.",
+        "B makes D possible.",
+        "D leads to E."
+      ],
+      "gold": [
+        [
+          "causes",
+          "D",
+          "E"
+        ],
+        [
+          "enables",
+          "A",
+          "B"
+        ],
+        [
+          "enables",
+          "B",
+          "D"
+        ]
+      ],
+      "iconic": {
+        "triples": [
+          [
+            "causes",
+            "D",
+            "E"
+          ],
+          [
+            "enables",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "B",
+            "D"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      },
+      "fol": {
+        "triples": [
+          [
+            "causes",
+            "D",
+            "E"
+          ],
+          [
+            "enables",
+            "A",
+            "B"
+          ],
+          [
+            "enables",
+            "B",
+            "D"
+          ]
+        ],
+        "P": 1.0,
+        "R": 1.0,
+        "F1": 1.0,
+        "judge_equivalent": true
+      }
+    }
+  ],
+  "aggregate": {
+    "spatial": {
+      "iconic": 0.537037037037037,
+      "fol": 0.537037037037037
+    },
+    "temporal": {
+      "iconic": 0.5555555555555556,
+      "fol": 0.5555555555555556
+    },
+    "causal": {
+      "iconic": 1.0,
+      "fol": 1.0
+    }
+  },
+  "judge": {
+    "spatial": {
+      "iconic": 1.0,
+      "fol": 1.0
+    },
+    "temporal": {
+      "fol": 1.0,
+      "iconic": 1.0
+    },
+    "causal": {
+      "fol": 1.0,
+      "iconic": 1.0
+    }
+  }
+}
